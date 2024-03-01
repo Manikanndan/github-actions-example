@@ -6,6 +6,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 class GithubCicdActionsApplicationTests {
 
+	@Test
 	void test1(){
         System.out.println("Executing Addition Test");
         assert 3 == MathsClass.add(1,2);

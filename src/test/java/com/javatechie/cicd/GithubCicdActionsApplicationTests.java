@@ -8,7 +8,7 @@ class GithubCicdActionsApplicationTests {
 
 	@Test
 	void test1(){
-		var calculator = new SimpleCalculator();
+		SimpleCalculator calculator = new SimpleCalculator();
 		assertEquals(4, calculator.add(2, 2));
 	}
 

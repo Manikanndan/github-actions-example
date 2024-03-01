@@ -10,7 +10,7 @@ class GithubCicdActionsApplicationTests {
 
 	@Test
 	void test1(){
-		var calculator = new GithubCicdActionsApplication();
+		GithubCicdActionsApplication calculator = new GithubCicdActionsApplication();
 		assertEquals(4, calculator.add(2, 2));
 	}
 

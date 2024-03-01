@@ -41,7 +41,8 @@
 			        <version>2.19.1</version>
 				<configurations>
 					<includes>
-						<include>%regex[.*]</include>
+						<include>*Test.java</include>
+					  	<include>%regex[.*(?&lt;!Some)Test\.class]</include>
 					</includes>
 				</configurations>
 			</plugin>

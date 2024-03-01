@@ -8,14 +8,8 @@ class GithubCicdActionsApplicationTests {
 
 	@Test
 	void test1(){
-        System.out.println("Executing Addition Test");
-        assert 3 == MathsClass.add(1,2);
-    }
-
-    @Test
-    void test2(){
-        System.out.println("Executing Multi[lication] Test");
-        assert 12 == MathsClass.multiply(6,2);
-    }
+		var calculator = new SimpleCalculator();
+		assertEquals(expected:4, calculator.add(numberA:2, numberB:2));
+	}
 
 }

@@ -14,6 +14,10 @@ public class GithubCicdActionsApplication {
 		return "Hello World, Testing Spring Project !!!";
 	}
 
+	public int add (int numberA, int numberB){
+		return numberA + numberB;
+	}
+
 //	echo "# github-actions-example" >> README.md
 //	git init
 //	git add README.md

@@ -9,7 +9,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 class GithubCicdActionsApplicationTests {
 
 	@Test
-	void test1(){
+	public void test1(){
 		var calculator = new SimpleCalculator();
 		assertEquals(4, calculator.add(2, 2));
 	}

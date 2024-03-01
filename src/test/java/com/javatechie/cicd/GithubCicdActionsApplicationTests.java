@@ -9,7 +9,7 @@ class GithubCicdActionsApplicationTests {
 	@Test
 	void test1(){
 		var calculator = new SimpleCalculator();
-		assertEquals(expected:4, calculator.add(numberA:2, numberB:2));
+		assertEquals(4, calculator.add(2, 2));
 	}
 
 }

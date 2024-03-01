@@ -27,6 +27,12 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter</artifactId>
+			<version>5.8.2</version>
+		</dependency>
 	</dependencies>
 
 	<build>
@@ -39,10 +45,6 @@
 			        <groupId>org.apache.maven.plugins</groupId>
 			        <artifactId>maven-surefire-plugin</artifactId>
 			        <version>2.19.1</version>
-				<includes>
-					<include>*Test.java</include>
-					<include>%regex[.*(?&lt;!Some)Test\.class]</include>
-				</includes>
 			</plugin>
 		</plugins>
 		<finalName>springboot-images-new</finalName>

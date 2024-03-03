@@ -8,7 +8,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 class GithubCicdActionsApplicationTests {
 
-	String message = "World!...";
+	String message = "Hello World!...";
 	
 	@Test 
 	void test1() {
@@ -19,7 +19,7 @@ class GithubCicdActionsApplicationTests {
 	@Test
 	void test2(){
 		GithubCicdActionsApplication calculator = new GithubCicdActionsApplication();
-		assertEquals(3, calculator.add(2, 2));
+		assertEquals(4, calculator.add(2, 2));
 	}
 
 }

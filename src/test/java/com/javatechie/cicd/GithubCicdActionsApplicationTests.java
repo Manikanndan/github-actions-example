@@ -8,8 +8,16 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 class GithubCicdActionsApplicationTests {
 
+	String message = "Hello World!...";
+	
+	@Test 
+	void test1() {
+	System.out.println("Inside testMessage()");
+	assertEquals(message, "Hello World!...");
+	}
+
 	@Test
-	void test1(){
+	void test2(){
 		GithubCicdActionsApplication calculator = new GithubCicdActionsApplication();
 		assertEquals(4, calculator.add(2, 2));
 	}

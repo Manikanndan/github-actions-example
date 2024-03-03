@@ -8,7 +8,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 class GithubCicdActionsApplicationTests {
 
-	String message = "Hello World!...";
+	String message = "World!...";
 	
 	@Test 
 	void test1() {

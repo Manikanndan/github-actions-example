@@ -19,7 +19,7 @@ class GithubCicdActionsApplicationTests {
 	@Test
 	void test2(){
 		GithubCicdActionsApplication calculator = new GithubCicdActionsApplication();
-		assertEquals(4, calculator.add(2, 2));
+		assertEqual(4, calculator.add(2, 2));
 	}
 
 }

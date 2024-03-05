@@ -28,11 +28,11 @@
 			<scope>test</scope>
 		</dependency>
 
-		<dependency>
+		<!-- <dependency>
 			<groupId>org.junit.jupiter</groupId>
 			<artifactId>junit-jupiter</artifactId>
 			<scope>5.5.0</scope>
-		</dependency>
+		</dependency> -->
 	</dependencies>
 
 	<build>
